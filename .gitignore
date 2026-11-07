@@ -1,0 +1,27 @@
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter and OS files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local secrets and editor settings
+.env
+.env.*
+!.env.example
+.vscode/
+
+# Generated evaluation outputs
+outputs/*
+!outputs/.gitkeep
